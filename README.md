@@ -1,5 +1,7 @@
 # CORE — Causal Operations & Recovery Engine
 
+[![CI](https://github.com/madmaxfv0/core-causal-operations-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/madmaxfv0/core-causal-operations-engine/actions/workflows/ci.yml)
+
 CORE is a decision-support tool for oil-field production engineers. It estimates what past well interventions actually changed (not just what happened before and after), screens idle and underperforming wells, and builds an intervention programme that fits a budget, crew and rig constraints.
 
 **Live demo:** <https://core-demo.fly.dev> (read-only public mode; the first visit after it has been idle takes about 40 seconds to wake)
