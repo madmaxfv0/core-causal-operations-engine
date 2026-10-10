@@ -1,0 +1,30 @@
+# CORE on Fly.io. App names are global; deploy/deploy_fly.sh picks a free one
+# for you if this is taken.
+app = "core-demo"
+primary_region = "fra"
+
+[env]
+  CORE_PUBLIC_DEMO = "1"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  # A demo can sleep when nobody is looking and wake on the first visit
+  # (about 40 s, the evidence base loads into memory). Set to "off" and
+  # min_machines_running = 1 for an always-on link.
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    method = "GET"
+    path = "/healthz"
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "90s"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  # measured peak after touching every endpoint: ~930 MB
+  memory = "2gb"
