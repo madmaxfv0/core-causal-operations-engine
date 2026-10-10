@@ -1,0 +1,22 @@
+WORKOVER REPORT
+Well: SYN-104
+Field: Synthetic Field C
+Date: 2021-11-20
+Job type: Workover
+Problem reported: well shut in after tubing leak and loss of circulation
+Reason for job: return well to production
+Pump type: PCP
+Work performed: pulled tubing, replaced leaking joints, cleaned perforations, ran new PCP, tested
+Parts replaced: 8 tubing joints, PCP rotor and stator
+Contractor: Northline Well Services
+Duration: 14 days
+Cost: 205,000 USD
+Oil rate before: 0 m3/d (shut in)
+Oil rate after: 18.5 m3/d
+Water cut before: n/a
+Water cut after: 71 %
+Pressure: 9 bar
+Downtime: 210 days
+Engineer: J. Carter
+Outcome: well returned to production; rate stable over first month
+Follow-up: monitor torque and fluid level weekly

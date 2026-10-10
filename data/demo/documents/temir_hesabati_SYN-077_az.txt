@@ -1,0 +1,22 @@
+QUYU TƏMİRİ HAQQINDA HESABAT
+Quyu № SYN-077
+Yataq: Synthetic Field B
+Tarix: 02.09.2022
+Təmir növü: Su izolyasiyası
+Dayanma səbəbi: sulaşmanın kəskin artması, neft debitinin azalması
+Əsas: son 6 ay ərzində sulaşma 82%-dən 94%-ə qədər artmışdır
+Nasos tipi: EMN
+Görülən işlər: sement körpüsünün quraşdırılması, perforasiya intervalının izolyasiyası, sınaq
+Dəyişdirilən hissələr: paker, NKT (12 boru)
+Podratçı: Xəzər Servis MMC
+Müddət: 11 gün
+Dəyər: 118 000 USD
+Neft debiti təmirdən əvvəl: 9,8 m3/gün
+Neft debiti təmirdən sonra: 14,2 m3/gün
+Sulaşma təmirdən əvvəl: 94 %
+Sulaşma təmirdən sonra: 81 %
+Təzyiq: 11 atm
+Boşdayanma: 14 gün
+Mühəndis: Məmmədov E.
+Nəticə: sulaşma azaldı, neft debiti artdı
+Tövsiyə: 3 aydan sonra sulaşma dinamikasına nəzarət

@@ -1,0 +1,44 @@
+{
+  "label": "Petrinex \u2014 Alberta Public Data (conventional volumetrics)",
+  "source": "Petrinex Alberta Public Data",
+  "data_mode": "REAL PUBLIC DATA",
+  "months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-06",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07"
+  ],
+  "start": "2025-01",
+  "n_months": 16,
+  "licence": "Petrinex public data; see https://www.petrinex.ca/terms",
+  "notes": "Field = reporting facility (proxy). No intervention records, coordinates or costs in this source.",
+  "rows": 6602,
+  "date_range": [
+    "2025-01",
+    "2026-07"
+  ],
+  "created_at": "2026-09-10T10:52:04.960476+00:00",
+  "fields": [
+    "oil_m3",
+    "water_m3",
+    "gas_e3m3",
+    "hours"
+  ],
+  "connection_type": "public download \u2192 local validated cache",
+  "official": true,
+  "subset_note": "Analytical subset: the 400 Petrinex-reporting wells with the most complete history in the imported window. The Alberta map serves all 475,125 AER ST37 wells.",
+  "n_wells": 400,
+  "dataset_version": "0606138f3b"
+}

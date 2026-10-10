@@ -1,0 +1,16 @@
+{
+ "decisions": [],
+ "notes": [],
+ "reviewed": {},
+ "scenarios": [],
+ "donor_overrides": {},
+ "manual_jobs": [],
+ "plan": {
+  "locked": {},
+  "removed": [],
+  "moves": {}
+ },
+ "connectors": {},
+ "imports": [],
+ "intervention_outcomes": []
+}

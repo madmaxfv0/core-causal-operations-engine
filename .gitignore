@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+
+# Working data (regenerated or downloaded, never vendored)
+data/raw/
+data/uploads/
+data/processed/cache/run_*.json
+
+# Canadian public-data caches — ~200 MB, downloaded by
+# scripts/update_alberta_data.py (see docs/ALBERTA_MAP.md)
+data/alberta/raw/
+data/alberta/cache/
+
+deploy/.app_name

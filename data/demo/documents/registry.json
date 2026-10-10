@@ -1,0 +1,1470 @@
+{
+ "documents": {
+  "DOC-6F6CD9AF": {
+   "document_id": "DOC-6F6CD9AF",
+   "file_name": "otchet_remont_SYN-031_ru.pdf",
+   "stored_path": "data/demo/documents/otchet_remont_SYN-031_ru.pdf",
+   "file_type": "pdf",
+   "language": "ru",
+   "doc_type": "intervention_report",
+   "date": "2023-03-14",
+   "well_id": "SYN-031",
+   "pages": 1,
+   "text_source": "text",
+   "ocr_confidence": null,
+   "review_status": "pending",
+   "uploaded_at": "2026-09-10T06:21:49.270052+00:00",
+   "bundled": true,
+   "note": ""
+  },
+  "DOC-EA89A2FF": {
+   "document_id": "DOC-EA89A2FF",
+   "file_name": "otchet_remont_SYN-031_ru.txt",
+   "stored_path": "data/demo/documents/otchet_remont_SYN-031_ru.txt",
+   "file_type": "txt",
+   "language": "ru",
+   "doc_type": "intervention_report",
+   "date": "2023-03-14",
+   "well_id": "SYN-031",
+   "pages": 1,
+   "text_source": "text",
+   "ocr_confidence": null,
+   "review_status": "pending",
+   "uploaded_at": "2026-09-10T06:21:49.270926+00:00",
+   "bundled": true,
+   "note": ""
+  },
+  "DOC-38B98BED": {
+   "document_id": "DOC-38B98BED",
+   "file_name": "scan_unreadable_note.txt",
+   "stored_path": "data/demo/documents/scan_unreadable_note.txt",
+   "file_type": "txt",
+   "language": "ru",
+   "doc_type": "unknown",
+   "date": null,
+   "well_id": null,
+   "pages": 1,
+   "text_source": "text",
+   "ocr_confidence": null,
+   "review_status": "pending",
+   "uploaded_at": "2026-09-10T06:21:49.271107+00:00",
+   "bundled": true,
+   "note": ""
+  },
+  "DOC-9CF4E878": {
+   "document_id": "DOC-9CF4E878",
+   "file_name": "temir_hesabati_SYN-077_az.txt",
+   "stored_path": "data/demo/documents/temir_hesabati_SYN-077_az.txt",
+   "file_type": "txt",
+   "language": "az",
+   "doc_type": "intervention_report",
+   "date": "2022-09-02",
+   "well_id": "SYN-077",
+   "pages": 1,
+   "text_source": "text",
+   "ocr_confidence": null,
+   "review_status": "pending",
+   "uploaded_at": "2026-09-10T06:21:49.271274+00:00",
+   "bundled": true,
+   "note": ""
+  },
+  "DOC-AE6279C1": {
+   "document_id": "DOC-AE6279C1",
+   "file_name": "workover_report_SYN-104_en.txt",
+   "stored_path": "data/demo/documents/workover_report_SYN-104_en.txt",
+   "file_type": "txt",
+   "language": "en",
+   "doc_type": "intervention_report",
+   "date": "2021-11-20",
+   "well_id": "SYN-104",
+   "pages": 1,
+   "text_source": "text",
+   "ocr_confidence": null,
+   "review_status": "pending",
+   "uploaded_at": "2026-09-10T06:21:49.271437+00:00",
+   "bundled": true,
+   "note": ""
+  }
+ },
+ "extractions": {
+  "DOC-AE6279C1": {
+   "document_id": "DOC-AE6279C1",
+   "source_file": "workover_report_SYN-104_en.txt",
+   "source_language": "en",
+   "ocr_confidence": null,
+   "llm_confidence": 0.733,
+   "human_review_status": "pending",
+   "fields": {
+    "well_id": {
+     "value": "SYN-104",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      22,
+      29
+     ],
+     "snippet": "WORKOVER REPORT\nWell: SYN-104\nField: Synthetic Fi",
+     "source": "mock:rule"
+    },
+    "field": {
+     "value": "Synthetic Field C",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      37,
+      54
+     ],
+     "snippet": "EPORT\nWell: SYN-104\nField: Synthetic Field C\nDate: 2021-11-20\nJo",
+     "source": "mock:rule"
+    },
+    "date": {
+     "value": "2021-11-20",
+     "confidence": 0.95,
+     "page": 1,
+     "span": [
+      61,
+      71
+     ],
+     "snippet": ": Synthetic Field C\nDate: 2021-11-20\nJob type: Workover\n",
+     "source": "mock:rule"
+    },
+    "document_type": {
+     "value": "intervention_report",
+     "confidence": 0.7,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "intervention_type": {
+     "value": "workover",
+     "confidence": 0.92,
+     "page": 1,
+     "span": [
+      82,
+      90
+     ],
+     "snippet": " C\nDate: 2021-11-20\nJob type: Workover\nProblem reported: w",
+     "source": "mock:rule"
+    },
+    "problem_reported": {
+     "value": "well shut in after tubing leak and loss of circulation",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      109,
+      163
+     ],
+     "snippet": "\nJob type: Workover\nProblem reported: well shut in after tubing leak and loss of circulation\nReason for job: ret",
+     "source": "mock:rule"
+    },
+    "reason_for_intervention": {
+     "value": "return well to production",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      180,
+      205
+     ],
+     "snippet": "loss of circulation\nReason for job: return well to production\nPump type: PCP\nWork",
+     "source": "mock:rule"
+    },
+    "equipment": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "pump_type": {
+     "value": "PCP",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      217,
+      220
+     ],
+     "snippet": " well to production\nPump type: PCP\nWork performed: pul",
+     "source": "mock:rule"
+    },
+    "work_performed": {
+     "value": "pulled tubing, replaced leaking joints, cleaned perforations, ran new PCP, tested",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      237,
+      318
+     ],
+     "snippet": "tion\nPump type: PCP\nWork performed: pulled tubing, replaced leaking joints, cleaned perforations, ran new PCP, tested\nParts replaced: 8 t",
+     "source": "mock:rule"
+    },
+    "contractor": {
+     "value": "Northline Well Services",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      385,
+      408
+     ],
+     "snippet": "CP rotor and stator\nContractor: Northline Well Services\nDuration: 14 days\nC",
+     "source": "mock:rule"
+    },
+    "duration": {
+     "value": 14.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      419,
+      421
+     ],
+     "snippet": "hline Well Services\nDuration: 14 days\nCost: 205,000 ",
+     "source": "mock:rule"
+    },
+    "cost": {
+     "value": 205000.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      433,
+      440
+     ],
+     "snippet": "s\nDuration: 14 days\nCost: 205,000 USD\nOil rate before",
+     "source": "mock:rule"
+    },
+    "currency": {
+     "value": "USD",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      441,
+      444
+     ],
+     "snippet": "s\nDuration: 14 days\nCost: 205,000 USD\nOil rate before: 0 ",
+     "source": "mock:rule"
+    },
+    "oil_before": {
+     "value": 0.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      462,
+      463
+     ],
+     "snippet": "s\nCost: 205,000 USD\nOil rate before: 0 m3/d (shut in)\nOil ",
+     "source": "mock:rule"
+    },
+    "oil_after": {
+     "value": 18.5,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      495,
+      499
+     ],
+     "snippet": "e: 0 m3/d (shut in)\nOil rate after: 18.5 m3/d\nWater cut befo",
+     "source": "mock:rule"
+    },
+    "water_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_after": {
+     "value": 0.71,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      544,
+      546
+     ],
+     "snippet": "ter cut before: n/a\nWater cut after: 71 %\nPressure: 9 bar\nD",
+     "source": "mock:rule"
+    },
+    "pressure": {
+     "value": 9.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      559,
+      560
+     ],
+     "snippet": "ter cut after: 71 %\nPressure: 9 bar\nDowntime: 210 d",
+     "source": "mock:rule"
+    },
+    "downtime": {
+     "value": 210.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      575,
+      578
+     ],
+     "snippet": "1 %\nPressure: 9 bar\nDowntime: 210 days\nEngineer: J. C",
+     "source": "mock:rule"
+    },
+    "parts_replaced": {
+     "value": "8 tubing joints, PCP rotor and stator",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      335,
+      372
+     ],
+     "snippet": "ran new PCP, tested\nParts replaced: 8 tubing joints, PCP rotor and stator\nContractor: Northli",
+     "source": "mock:rule"
+    },
+    "engineer_name": {
+     "value": "J. Carter",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      594,
+      603
+     ],
+     "snippet": "\nDowntime: 210 days\nEngineer: J. Carter\nOutcome: well retur",
+     "source": "mock:rule"
+    },
+    "outcome_description": {
+     "value": "well returned to production; rate stable over first month",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      613,
+      670
+     ],
+     "snippet": "Engineer: J. Carter\nOutcome: well returned to production; rate stable over first month\nFollow-up: monitor ",
+     "source": "mock:rule"
+    },
+    "follow_up_action": {
+     "value": "monitor torque and fluid level weekly",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      682,
+      719
+     ],
+     "snippet": "le over first month\nFollow-up: monitor torque and fluid level weekly\n",
+     "source": "mock:rule"
+    }
+   },
+   "raw_text_snippet": "WORKOVER REPORT\nWell: SYN-104\nField: Synthetic Field C\nDate: 2021-11-20\nJob type: Workover\nProblem reported: well shut in after tubing leak and loss of circulation\nReason for job: return well to production\nPump type: PCP\nWork performed: pulled tubing, replaced leaking joints, cleaned perforations, ran new PCP, tested\nParts replaced: 8 tubing joints, PCP rotor and stator\nContractor: Northline Well Services\nDuration: 14 days\nCost: 205,000 USD\nOil rate before: 0 m3/d (shut in)\nOil rate after: 18.5 m3/d\nWater cut before: n/a\nWater cut after: 71 %\nPressure: 9 bar\nDowntime: 210 days\nEngineer: J. Car",
+   "provider": "mock"
+  },
+  "DOC-9CF4E878": {
+   "document_id": "DOC-9CF4E878",
+   "source_file": "temir_hesabati_SYN-077_az.txt",
+   "source_language": "az",
+   "ocr_confidence": null,
+   "llm_confidence": 0.768,
+   "human_review_status": "pending",
+   "fields": {
+    "well_id": {
+     "value": "SYN-077",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      36,
+      43
+     ],
+     "snippet": "Rİ HAQQINDA HESABAT\nQuyu № SYN-077\nYataq: Synthetic Fi",
+     "source": "mock:rule"
+    },
+    "field": {
+     "value": "Synthetic Field B",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      51,
+      68
+     ],
+     "snippet": "ABAT\nQuyu № SYN-077\nYataq: Synthetic Field B\nTarix: 02.09.2022\nT",
+     "source": "mock:rule"
+    },
+    "date": {
+     "value": "2022-09-02",
+     "confidence": 0.95,
+     "page": 1,
+     "span": [
+      76,
+      86
+     ],
+     "snippet": ": Synthetic Field B\nTarix: 02.09.2022\nTəmir növü: Su izol",
+     "source": "mock:rule"
+    },
+    "document_type": {
+     "value": "intervention_report",
+     "confidence": 0.7,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "intervention_type": {
+     "value": "water_shutoff",
+     "confidence": 0.92,
+     "page": 1,
+     "span": [
+      99,
+      114
+     ],
+     "snippet": "B\nTarix: 02.09.2022\nTəmir növü: Su izolyasiyası\nDayanma səbəbi: sul",
+     "source": "mock:rule"
+    },
+    "problem_reported": {
+     "value": "sulaşmanın kəskin artması, neft debitinin azalması",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      131,
+      181
+     ],
+     "snippet": "vü: Su izolyasiyası\nDayanma səbəbi: sulaşmanın kəskin artması, neft debitinin azalması\nƏsas: son 6 ay ərzi",
+     "source": "mock:rule"
+    },
+    "reason_for_intervention": {
+     "value": "son 6 ay ərzində sulaşma 82%-dən 94%-ə qədər artmışdır",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      188,
+      242
+     ],
+     "snippet": " debitinin azalması\nƏsas: son 6 ay ərzində sulaşma 82%-dən 94%-ə qədər artmışdır\nNasos tipi: EMN\nGör",
+     "source": "mock:rule"
+    },
+    "equipment": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "pump_type": {
+     "value": "EMN",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      255,
+      258
+     ],
+     "snippet": "%-ə qədər artmışdır\nNasos tipi: EMN\nGörülən işlər: seme",
+     "source": "mock:rule"
+    },
+    "work_performed": {
+     "value": "sement körpüsünün quraşdırılması, perforasiya intervalının izolyasiyası, sınaq",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      274,
+      352
+     ],
+     "snippet": "dır\nNasos tipi: EMN\nGörülən işlər: sement körpüsünün quraşdırılması, perforasiya intervalının izolyasiyası, sınaq\nDəyişdirilən hissəl",
+     "source": "mock:rule"
+    },
+    "contractor": {
+     "value": "Xəzər Servis MMC",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      407,
+      423
+     ],
+     "snippet": "aker, NKT (12 boru)\nPodratçı: Xəzər Servis MMC\nMüddət: 11 gün\nDəyə",
+     "source": "mock:rule"
+    },
+    "duration": {
+     "value": 11.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      432,
+      434
+     ],
+     "snippet": "ı: Xəzər Servis MMC\nMüddət: 11 gün\nDəyər: 118 000 ",
+     "source": "mock:rule"
+    },
+    "cost": {
+     "value": 118000.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      446,
+      454
+     ],
+     "snippet": " MMC\nMüddət: 11 gün\nDəyər: 118 000 USD\nNeft debiti təmi",
+     "source": "mock:rule"
+    },
+    "currency": {
+     "value": "USD",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      454,
+      457
+     ],
+     "snippet": " MMC\nMüddət: 11 gün\nDəyər: 118 000 USD\nNeft debiti təmirdə",
+     "source": "mock:rule"
+    },
+    "oil_before": {
+     "value": 9.8,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      486,
+      489
+     ],
+     "snippet": "\nDəyər: 118 000 USD\nNeft debiti təmirdən əvvəl: 9,8 m3/gün\nNeft debiti ",
+     "source": "mock:rule"
+    },
+    "oil_after": {
+     "value": 14.2,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      525,
+      529
+     ],
+     "snippet": "n əvvəl: 9,8 m3/gün\nNeft debiti təmirdən sonra: 14,2 m3/gün\nSulaşma təmi",
+     "source": "mock:rule"
+    },
+    "water_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_before": {
+     "value": 0.94,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      561,
+      563
+     ],
+     "snippet": " sonra: 14,2 m3/gün\nSulaşma təmirdən əvvəl: 94 %\nSulaşma təmirdən ",
+     "source": "mock:rule"
+    },
+    "water_cut_after": {
+     "value": 0.81,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      590,
+      592
+     ],
+     "snippet": "əmirdən əvvəl: 94 %\nSulaşma təmirdən sonra: 81 %\nTəzyiq: 11 atm\nBo",
+     "source": "mock:rule"
+    },
+    "pressure": {
+     "value": 11.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      603,
+      605
+     ],
+     "snippet": "əmirdən sonra: 81 %\nTəzyiq: 11 atm\nBoşdayanma: 14 ",
+     "source": "mock:rule"
+    },
+    "downtime": {
+     "value": 14.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      622,
+      624
+     ],
+     "snippet": "81 %\nTəzyiq: 11 atm\nBoşdayanma: 14 gün\nMühəndis: Məmmə",
+     "source": "mock:rule"
+    },
+    "parts_replaced": {
+     "value": "paker, NKT (12 boru)",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      376,
+      396
+     ],
+     "snippet": "izolyasiyası, sınaq\nDəyişdirilən hissələr: paker, NKT (12 boru)\nPodratçı: Xəzər Ser",
+     "source": "mock:rule"
+    },
+    "engineer_name": {
+     "value": "Məmmədov E.",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      639,
+      650
+     ],
+     "snippet": "\nBoşdayanma: 14 gün\nMühəndis: Məmmədov E.\nNəticə: sulaşma aza",
+     "source": "mock:rule"
+    },
+    "outcome_description": {
+     "value": "sulaşma azaldı, neft debiti artdı",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      659,
+      692
+     ],
+     "snippet": "həndis: Məmmədov E.\nNəticə: sulaşma azaldı, neft debiti artdı\nTövsiyə: 3 aydan so",
+     "source": "mock:rule"
+    },
+    "follow_up_action": {
+     "value": "3 aydan sonra sulaşma dinamikasına nəzarət",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      702,
+      744
+     ],
+     "snippet": ", neft debiti artdı\nTövsiyə: 3 aydan sonra sulaşma dinamikasına nəzarət\n",
+     "source": "mock:rule"
+    }
+   },
+   "raw_text_snippet": "QUYU TƏMİRİ HAQQINDA HESABAT\nQuyu № SYN-077\nYataq: Synthetic Field B\nTarix: 02.09.2022\nTəmir növü: Su izolyasiyası\nDayanma səbəbi: sulaşmanın kəskin artması, neft debitinin azalması\nƏsas: son 6 ay ərzində sulaşma 82%-dən 94%-ə qədər artmışdır\nNasos tipi: EMN\nGörülən işlər: sement körpüsünün quraşdırılması, perforasiya intervalının izolyasiyası, sınaq\nDəyişdirilən hissələr: paker, NKT (12 boru)\nPodratçı: Xəzər Servis MMC\nMüddət: 11 gün\nDəyər: 118 000 USD\nNeft debiti təmirdən əvvəl: 9,8 m3/gün\nNeft debiti təmirdən sonra: 14,2 m3/gün\nSulaşma təmirdən əvvəl: 94 %\nSulaşma təmirdən sonra: 81 %\nTəzyi",
+   "provider": "mock"
+  },
+  "DOC-38B98BED": {
+   "document_id": "DOC-38B98BED",
+   "source_file": "scan_unreadable_note.txt",
+   "source_language": "ru",
+   "ocr_confidence": null,
+   "llm_confidence": 0.008,
+   "human_review_status": "pending",
+   "fields": {
+    "well_id": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "field": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "date": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "document_type": {
+     "value": "unknown",
+     "confidence": 0.2,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "intervention_type": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "problem_reported": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "reason_for_intervention": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "equipment": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "pump_type": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "work_performed": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "contractor": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "duration": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "cost": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "currency": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "oil_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "oil_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "pressure": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "downtime": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "parts_replaced": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "engineer_name": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "outcome_description": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "follow_up_action": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    }
+   },
+   "raw_text_snippet": "—— фотокопия низкого качества ——\n.... .... ...... 19..\nскв ... ... ...\n(текст не читается)\n",
+   "provider": "mock"
+  },
+  "DOC-EA89A2FF": {
+   "document_id": "DOC-EA89A2FF",
+   "source_file": "otchet_remont_SYN-031_ru.txt",
+   "source_language": "ru",
+   "ocr_confidence": null,
+   "llm_confidence": 0.768,
+   "human_review_status": "pending",
+   "fields": {
+    "well_id": {
+     "value": "SYN-031",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      47,
+      54
+     ],
+     "snippet": " ПОДЗЕМНОГО РЕМОНТА\nСкважина № SYN-031\nМесторождение: Synt",
+     "source": "mock:rule"
+    },
+    "field": {
+     "value": "Synthetic Field A",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      70,
+      87
+     ],
+     "snippet": "\nСкважина № SYN-031\nМесторождение: Synthetic Field A\nДата окончания работ",
+     "source": "mock:rule"
+    },
+    "date": {
+     "value": "2023-03-14",
+     "confidence": 0.95,
+     "page": 1,
+     "span": [
+      110,
+      120
+     ],
+     "snippet": ": Synthetic Field A\nДата окончания работ: 14.03.2023\nВид работ: Замена н",
+     "source": "mock:rule"
+    },
+    "document_type": {
+     "value": "intervention_report",
+     "confidence": 0.7,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "intervention_type": {
+     "value": "pump_replacement",
+     "confidence": 0.92,
+     "page": 1,
+     "span": [
+      132,
+      151
+     ],
+     "snippet": "я работ: 14.03.2023\nВид работ: Замена насоса (ШГН)\nПричина остановки: ",
+     "source": "mock:rule"
+    },
+    "problem_reported": {
+     "value": "снижение дебита, износ плунжерной пары, засорение приёмного клапана",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      171,
+      238
+     ],
+     "snippet": "Замена насоса (ШГН)\nПричина остановки: снижение дебита, износ плунжерной пары, засорение приёмного клапана\nОснование: анализ д",
+     "source": "mock:rule"
+    },
+    "reason_for_intervention": {
+     "value": "анализ динамики дебита за 3 месяца",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      250,
+      284
+     ],
+     "snippet": "е приёмного клапана\nОснование: анализ динамики дебита за 3 месяца\nТип насоса: ШГН 44-",
+     "source": "mock:rule"
+    },
+    "equipment": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "pump_type": {
+     "value": "ШГН 44-мм",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      297,
+      306
+     ],
+     "snippet": " дебита за 3 месяца\nТип насоса: ШГН 44-мм\nВыполненные работы:",
+     "source": "mock:rule"
+    },
+    "work_performed": {
+     "value": "подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      327,
+      387
+     ],
+     "snippet": "п насоса: ШГН 44-мм\nВыполненные работы: подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м\nЗаменены: плунжер, ",
+     "source": "mock:rule"
+    },
+    "contractor": {
+     "value": "СервисРемонт ООО",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      464,
+      480
+     ],
+     "snippet": " колонна (частично)\nПодрядчик: СервисРемонт ООО\nПродолжительность: ",
+     "source": "mock:rule"
+    },
+    "duration": {
+     "value": 6.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      500,
+      501
+     ],
+     "snippet": "к: СервисРемонт ООО\nПродолжительность: 6 суток\nСтоимость: 46",
+     "source": "mock:rule"
+    },
+    "cost": {
+     "value": 46500.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      519,
+      526
+     ],
+     "snippet": "ительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до р",
+     "source": "mock:rule"
+    },
+    "currency": {
+     "value": "USD",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      526,
+      529
+     ],
+     "snippet": "ительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до ремо",
+     "source": "mock:rule"
+    },
+    "oil_before": {
+     "value": 21.4,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      554,
+      558
+     ],
+     "snippet": "оимость: 46 500 USD\nДебит нефти до ремонта: 21,4 м3/сут\nДебит нефти ",
+     "source": "mock:rule"
+    },
+    "oil_after": {
+     "value": 28.9,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      593,
+      597
+     ],
+     "snippet": "емонта: 21,4 м3/сут\nДебит нефти после ремонта: 28,9 м3/сут\nОбводнённост",
+     "source": "mock:rule"
+    },
+    "water_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_before": {
+     "value": 0.78,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      623,
+      625
+     ],
+     "snippet": "емонта: 28,9 м3/сут\nОбводнённость до: 78 %\nОбводнённость пос",
+     "source": "mock:rule"
+    },
+    "water_cut_after": {
+     "value": 0.76,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      649,
+      651
+     ],
+     "snippet": "однённость до: 78 %\nОбводнённость после: 76 %\nДавление на устье",
+     "source": "mock:rule"
+    },
+    "pressure": {
+     "value": 14.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      673,
+      675
+     ],
+     "snippet": "ённость после: 76 %\nДавление на устье: 14 атм\nПростой: 9 суто",
+     "source": "mock:rule"
+    },
+    "downtime": {
+     "value": 9.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      689,
+      690
+     ],
+     "snippet": "ие на устье: 14 атм\nПростой: 9 суток\nИнженер: Гаса",
+     "source": "mock:rule"
+    },
+    "parts_replaced": {
+     "value": "плунжер, приёмный клапан, штанговая колонна (частично)",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      398,
+      452
+     ],
+     "snippet": "ов, спуск на 1180 м\nЗаменены: плунжер, приёмный клапан, штанговая колонна (частично)\nПодрядчик: СервисРе",
+     "source": "mock:rule"
+    },
+    "engineer_name": {
+     "value": "Гасанов Р.А.",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      706,
+      718
+     ],
+     "snippet": "тм\nПростой: 9 суток\nИнженер: Гасанов Р.А.\nРезультат: восстано",
+     "source": "mock:rule"
+    },
+    "outcome_description": {
+     "value": "восстановление подачи, режим стабильный",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      730,
+      769
+     ],
+     "snippet": "женер: Гасанов Р.А.\nРезультат: восстановление подачи, режим стабильный\nРекомендация: контр",
+     "source": "mock:rule"
+    },
+    "follow_up_action": {
+     "value": "контроль динамического уровня через 30 дней",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      784,
+      827
+     ],
+     "snippet": "и, режим стабильный\nРекомендация: контроль динамического уровня через 30 дней\n",
+     "source": "mock:rule"
+    }
+   },
+   "raw_text_snippet": "АКТ О ПРОВЕДЕНИИ ПОДЗЕМНОГО РЕМОНТА\nСкважина № SYN-031\nМесторождение: Synthetic Field A\nДата окончания работ: 14.03.2023\nВид работ: Замена насоса (ШГН)\nПричина остановки: снижение дебита, износ плунжерной пары, засорение приёмного клапана\nОснование: анализ динамики дебита за 3 месяца\nТип насоса: ШГН 44-мм\nВыполненные работы: подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м\nЗаменены: плунжер, приёмный клапан, штанговая колонна (частично)\nПодрядчик: СервисРемонт ООО\nПродолжительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до ремонта: 21,4 м3/сут\nДебит нефти после ремонта: 28,9 м3",
+   "provider": "mock"
+  },
+  "DOC-6F6CD9AF": {
+   "document_id": "DOC-6F6CD9AF",
+   "source_file": "otchet_remont_SYN-031_ru.pdf",
+   "source_language": "ru",
+   "ocr_confidence": null,
+   "llm_confidence": 0.768,
+   "human_review_status": "pending",
+   "fields": {
+    "well_id": {
+     "value": "SYN-031",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      47,
+      54
+     ],
+     "snippet": " ПОДЗЕМНОГО РЕМОНТА\nСкважина № SYN-031\nМесторождение: Synt",
+     "source": "mock:rule"
+    },
+    "field": {
+     "value": "Synthetic Field A",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      70,
+      87
+     ],
+     "snippet": "\nСкважина № SYN-031\nМесторождение: Synthetic Field A\nДата окончания работ",
+     "source": "mock:rule"
+    },
+    "date": {
+     "value": "2023-03-14",
+     "confidence": 0.95,
+     "page": 1,
+     "span": [
+      110,
+      120
+     ],
+     "snippet": ": Synthetic Field A\nДата окончания работ: 14.03.2023\nВид работ: Замена н",
+     "source": "mock:rule"
+    },
+    "document_type": {
+     "value": "intervention_report",
+     "confidence": 0.7,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "intervention_type": {
+     "value": "pump_replacement",
+     "confidence": 0.92,
+     "page": 1,
+     "span": [
+      132,
+      151
+     ],
+     "snippet": "я работ: 14.03.2023\nВид работ: Замена насоса (ШГН)\nПричина остановки: ",
+     "source": "mock:rule"
+    },
+    "problem_reported": {
+     "value": "снижение дебита, износ плунжерной пары, засорение приёмного клапана",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      171,
+      238
+     ],
+     "snippet": "Замена насоса (ШГН)\nПричина остановки: снижение дебита, износ плунжерной пары, засорение приёмного клапана\nОснование: анализ д",
+     "source": "mock:rule"
+    },
+    "reason_for_intervention": {
+     "value": "анализ динамики дебита за 3 месяца",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      250,
+      284
+     ],
+     "snippet": "е приёмного клапана\nОснование: анализ динамики дебита за 3 месяца\nТип насоса: ШГН 44-",
+     "source": "mock:rule"
+    },
+    "equipment": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "pump_type": {
+     "value": "ШГН 44-мм",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      297,
+      306
+     ],
+     "snippet": " дебита за 3 месяца\nТип насоса: ШГН 44-мм\nВыполненные работы:",
+     "source": "mock:rule"
+    },
+    "work_performed": {
+     "value": "подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      327,
+      387
+     ],
+     "snippet": "п насоса: ШГН 44-мм\nВыполненные работы: подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м\nЗаменены: плунжер, ",
+     "source": "mock:rule"
+    },
+    "contractor": {
+     "value": "СервисРемонт ООО",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      464,
+      480
+     ],
+     "snippet": " колонна (частично)\nПодрядчик: СервисРемонт ООО\nПродолжительность: ",
+     "source": "mock:rule"
+    },
+    "duration": {
+     "value": 6.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      500,
+      501
+     ],
+     "snippet": "к: СервисРемонт ООО\nПродолжительность: 6 суток\nСтоимость: 46",
+     "source": "mock:rule"
+    },
+    "cost": {
+     "value": 46500.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      519,
+      526
+     ],
+     "snippet": "ительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до р",
+     "source": "mock:rule"
+    },
+    "currency": {
+     "value": "USD",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      526,
+      529
+     ],
+     "snippet": "ительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до ремо",
+     "source": "mock:rule"
+    },
+    "oil_before": {
+     "value": 21.4,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      554,
+      558
+     ],
+     "snippet": "оимость: 46 500 USD\nДебит нефти до ремонта: 21,4 м3/сут\nДебит нефти ",
+     "source": "mock:rule"
+    },
+    "oil_after": {
+     "value": 28.9,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      593,
+      597
+     ],
+     "snippet": "емонта: 21,4 м3/сут\nДебит нефти после ремонта: 28,9 м3/сут\nОбводнённост",
+     "source": "mock:rule"
+    },
+    "water_before": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_after": {
+     "value": null,
+     "confidence": 0.0,
+     "page": null,
+     "span": null,
+     "snippet": null,
+     "source": "mock:rule"
+    },
+    "water_cut_before": {
+     "value": 0.78,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      623,
+      625
+     ],
+     "snippet": "емонта: 28,9 м3/сут\nОбводнённость до: 78 %\nОбводнённость пос",
+     "source": "mock:rule"
+    },
+    "water_cut_after": {
+     "value": 0.76,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      649,
+      651
+     ],
+     "snippet": "однённость до: 78 %\nОбводнённость после: 76 %\nДавление на устье",
+     "source": "mock:rule"
+    },
+    "pressure": {
+     "value": 14.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      673,
+      675
+     ],
+     "snippet": "ённость после: 76 %\nДавление на устье: 14 атм\nПростой: 9 суто",
+     "source": "mock:rule"
+    },
+    "downtime": {
+     "value": 9.0,
+     "confidence": 0.9,
+     "page": 1,
+     "span": [
+      689,
+      690
+     ],
+     "snippet": "ие на устье: 14 атм\nПростой: 9 суток\nИнженер: Гаса",
+     "source": "mock:rule"
+    },
+    "parts_replaced": {
+     "value": "плунжер, приёмный клапан, штанговая колонна (частично)",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      398,
+      452
+     ],
+     "snippet": "ов, спуск на 1180 м\nЗаменены: плунжер, приёмный клапан, штанговая колонна (частично)\nПодрядчик: СервисРе",
+     "source": "mock:rule"
+    },
+    "engineer_name": {
+     "value": "Гасанов Р.А.",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      706,
+      718
+     ],
+     "snippet": "тм\nПростой: 9 суток\nИнженер: Гасанов Р.А.\nРезультат: восстано",
+     "source": "mock:rule"
+    },
+    "outcome_description": {
+     "value": "восстановление подачи, режим стабильный",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      730,
+      769
+     ],
+     "snippet": "женер: Гасанов Р.А.\nРезультат: восстановление подачи, режим стабильный\nРекомендация: контр",
+     "source": "mock:rule"
+    },
+    "follow_up_action": {
+     "value": "контроль динамического уровня через 30 дней",
+     "confidence": 0.85,
+     "page": 1,
+     "span": [
+      784,
+      827
+     ],
+     "snippet": "и, режим стабильный\nРекомендация: контроль динамического уровня через 30 дней",
+     "source": "mock:rule"
+    }
+   },
+   "raw_text_snippet": "АКТ О ПРОВЕДЕНИИ ПОДЗЕМНОГО РЕМОНТА\nСкважина № SYN-031\nМесторождение: Synthetic Field A\nДата окончания работ: 14.03.2023\nВид работ: Замена насоса (ШГН)\nПричина остановки: снижение дебита, износ плунжерной пары, засорение приёмного клапана\nОснование: анализ динамики дебита за 3 месяца\nТип насоса: ШГН 44-мм\nВыполненные работы: подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м\nЗаменены: плунжер, приёмный клапан, штанговая колонна (частично)\nПодрядчик: СервисРемонт ООО\nПродолжительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до ремонта: 21,4 м3/сут\nДебит нефти после ремонта: 28,9 м3",
+   "provider": "mock"
+  }
+ },
+ "reviews": [],
+ "texts": {
+  "DOC-AE6279C1": [
+   "WORKOVER REPORT\nWell: SYN-104\nField: Synthetic Field C\nDate: 2021-11-20\nJob type: Workover\nProblem reported: well shut in after tubing leak and loss of circulation\nReason for job: return well to production\nPump type: PCP\nWork performed: pulled tubing, replaced leaking joints, cleaned perforations, ran new PCP, tested\nParts replaced: 8 tubing joints, PCP rotor and stator\nContractor: Northline Well Services\nDuration: 14 days\nCost: 205,000 USD\nOil rate before: 0 m3/d (shut in)\nOil rate after: 18.5 m3/d\nWater cut before: n/a\nWater cut after: 71 %\nPressure: 9 bar\nDowntime: 210 days\nEngineer: J. Carter\nOutcome: well returned to production; rate stable over first month\nFollow-up: monitor torque and fluid level weekly\n"
+  ],
+  "DOC-9CF4E878": [
+   "QUYU TƏMİRİ HAQQINDA HESABAT\nQuyu № SYN-077\nYataq: Synthetic Field B\nTarix: 02.09.2022\nTəmir növü: Su izolyasiyası\nDayanma səbəbi: sulaşmanın kəskin artması, neft debitinin azalması\nƏsas: son 6 ay ərzində sulaşma 82%-dən 94%-ə qədər artmışdır\nNasos tipi: EMN\nGörülən işlər: sement körpüsünün quraşdırılması, perforasiya intervalının izolyasiyası, sınaq\nDəyişdirilən hissələr: paker, NKT (12 boru)\nPodratçı: Xəzər Servis MMC\nMüddət: 11 gün\nDəyər: 118 000 USD\nNeft debiti təmirdən əvvəl: 9,8 m3/gün\nNeft debiti təmirdən sonra: 14,2 m3/gün\nSulaşma təmirdən əvvəl: 94 %\nSulaşma təmirdən sonra: 81 %\nTəzyiq: 11 atm\nBoşdayanma: 14 gün\nMühəndis: Məmmədov E.\nNəticə: sulaşma azaldı, neft debiti artdı\nTövsiyə: 3 aydan sonra sulaşma dinamikasına nəzarət\n"
+  ],
+  "DOC-38B98BED": [
+   "—— фотокопия низкого качества ——\n.... .... ...... 19..\nскв ... ... ...\n(текст не читается)\n"
+  ],
+  "DOC-EA89A2FF": [
+   "АКТ О ПРОВЕДЕНИИ ПОДЗЕМНОГО РЕМОНТА\nСкважина № SYN-031\nМесторождение: Synthetic Field A\nДата окончания работ: 14.03.2023\nВид работ: Замена насоса (ШГН)\nПричина остановки: снижение дебита, износ плунжерной пары, засорение приёмного клапана\nОснование: анализ динамики дебита за 3 месяца\nТип насоса: ШГН 44-мм\nВыполненные работы: подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м\nЗаменены: плунжер, приёмный клапан, штанговая колонна (частично)\nПодрядчик: СервисРемонт ООО\nПродолжительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до ремонта: 21,4 м3/сут\nДебит нефти после ремонта: 28,9 м3/сут\nОбводнённость до: 78 %\nОбводнённость после: 76 %\nДавление на устье: 14 атм\nПростой: 9 суток\nИнженер: Гасанов Р.А.\nРезультат: восстановление подачи, режим стабильный\nРекомендация: контроль динамического уровня через 30 дней\n"
+  ],
+  "DOC-6F6CD9AF": [
+   "АКТ О ПРОВЕДЕНИИ ПОДЗЕМНОГО РЕМОНТА\nСкважина № SYN-031\nМесторождение: Synthetic Field A\nДата окончания работ: 14.03.2023\nВид работ: Замена насоса (ШГН)\nПричина остановки: снижение дебита, износ плунжерной пары, засорение приёмного клапана\nОснование: анализ динамики дебита за 3 месяца\nТип насоса: ШГН 44-мм\nВыполненные работы: подъём НКТ, замена насоса, ревизия клапанов, спуск на 1180 м\nЗаменены: плунжер, приёмный клапан, штанговая колонна (частично)\nПодрядчик: СервисРемонт ООО\nПродолжительность: 6 суток\nСтоимость: 46 500 USD\nДебит нефти до ремонта: 21,4 м3/сут\nДебит нефти после ремонта: 28,9 м3/сут\nОбводнённость до: 78 %\nОбводнённость после: 76 %\nДавление на устье: 14 атм\nПростой: 9 суток\nИнженер: Гасанов Р.А.\nРезультат: восстановление подачи, режим стабильный\nРекомендация: контроль динамического уровня через 30 дней"
+  ]
+ }
+}
